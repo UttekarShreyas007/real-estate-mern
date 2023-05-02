@@ -9,10 +9,11 @@ This project consists of a Node.js back-end and a React front-end. The back-end 
 To install the Real Estate Website, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Navigate to the root directory of the project.
+2. Navigate to the `Server` directory of the project.
 3. Run the command `npm install` to install the necessary dependencies.
 4. Run the command `npm start` to start the server.
-5. Navigate to the `client` directory.
+
+5. Navigate to the `Client` directory.
 6 Run the command `npm install` to install the necessary dependencies.
 7. Run the command `npm start` to start the front-end.
 
@@ -20,11 +21,22 @@ To install the Real Estate Website, follow these steps:
 
 To use the Real Estate Website, follow these steps:
 
-1. Navigate to the front-end URL in your web browser.
-2. Use the search bar to search for properties based on location, price, and type.
-3. Create an account to save your searches and bookmark your favorite properties.
-4. List a property for sale or rent by clicking the "List a Property" button and filling out the form.
-5. Edit or delete your property listing by clicking the "Edit" or "Delete" button on the property card.
+## General
+1. Navigate to the front-end URL ([http://localhost:3000](http://localhost:3000)) in your web browser.
+2. Explore Properties by navigating to the property page from the Navbar.
+3. If you wish to explore other features you can always create an account on the portal.
+
+## Client
+1. Navigate to the front-end URL ([http://localhost:3000](http://localhost:3000)) in your web browser.
+2. Create an account to save your searches by bookmarking your favorite properties.
+
+## Agent
+1. Navigate to the front-end URL ([http://localhost:3000](http://localhost:3000)) in your web browser.
+2. Create an account to List and manage your own properties.
+3. You will have to change the role of a user to agent from the Database to access agent features.
+4. List a property for sale or rent by clicking the "Add Property" button and filling out the form.
+5. Edit or delete your property listing by clicking the "Edit" or "Delete" button on the property card in the .
+
 
 ## Contributing
 
